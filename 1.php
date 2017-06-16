@@ -17,4 +17,7 @@ $arr = [
 
 $arr2 = array_column($arr, null,'a');
 
+
+
+
 var_dump('<pre>',$arr2);exit;
