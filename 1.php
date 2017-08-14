@@ -19,5 +19,7 @@ $arr = [
 ];
 
 $arr2 = array_column($arr, null,'a');
+$arr2 = array_column($arr, null,'c');
+$arr2 = array_column($arr, null,'d');
 
 var_dump('<pre>',$arr2);exit;
