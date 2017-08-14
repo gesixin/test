@@ -17,4 +17,3 @@ echo date("Y-m-d H:i:s",$lastMonday),'--',$date_arr['mday'] - $date_arr['wday'],
 echo date("Y-m-d H:i:s",$lastSunday),'--',$date_arr['mday'] - $date_arr['wday'],'<br>';
 echo date("Y-m-d H:i:s",$thisFirstDay),'--',$date_arr['mday'] - $date_arr['wday'],'<br>';
 echo date("Y-m-d H:i:s",$lastMondayendDay),'--',$date_arr['mday'] - $date_arr['wday'],'<br>';
-echo date("Y-m-d H:i:s",$lastMondayFirstDay),'--',$date_arr['mday'] - $date_arr['wday'],'<br>';
