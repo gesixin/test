@@ -10,12 +10,12 @@ $arr = [
         'b' => 4,
     ],
     
+    
+    
     [
         'a' => 3,
         'b' =>4,
     ]
-    
-    
 ];
 
 $arr2 = array_column($arr, null,'a');
