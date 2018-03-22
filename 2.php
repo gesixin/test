@@ -1,0 +1,12 @@
+<?php
+
+
+
+
+$fn = function($a) use ($i) {
+    echo $a + $i;
+};
+
+for($i = 0; $i < 10;$i ++){
+    echo      $fn($i) ,'<br>';
+}
